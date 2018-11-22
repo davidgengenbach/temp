@@ -1,0 +1,16 @@
+digraph AnimalTreeLeafsColored {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+  
+  "Insect" [fillcolor="#b8c8d2", style=filled];
+  "Primate" [fillcolor="#b8c8d2", style=filled];
+  "Carnivora" [fillcolor="#b8c8d2", style=filled];
+  
+  Animalia -> Chordate;
+  Chordate -> Mammal;
+  Mammal -> Primate;
+  Mammal -> Carnivora;
+  Animalia -> Arthropoda;
+  Arthropoda -> Insect;
+}

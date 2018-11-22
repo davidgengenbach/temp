@@ -1,0 +1,12 @@
+digraph AnimalTree {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+
+  Animalia -> Chordate;
+  Chordate -> Mammal;
+  Mammal -> Primate;
+  Mammal -> Carnivora;
+  Animalia -> Arthropoda;
+  Arthropoda -> Insect;
+}
