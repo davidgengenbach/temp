@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetice, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  background: #b8c8d2;
+}
+
+.container {
+  max-width: 800px;
+  background: #fff;
+  margin: 24px auto;
+  padding: 24px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 10px;
+}
+
+th {
+  font-weight: bold
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+table {
+  display: inline;
+}
+
+table tr td {
+  padding: 5px 10px;
+}
+
+.logo {
+  display: block;
+  margin: 16px auto;
+}
+
+.img-animal-tree {
+  display: block;
+  margin: auto;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 90%;
+  color: #222;
+  background: #eee;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.leaf {
+  background: #b8c8d2;
+}
+
+.half {
+  width: 50%;
+  float: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.result-container {
+  margin-bottom: 40px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
